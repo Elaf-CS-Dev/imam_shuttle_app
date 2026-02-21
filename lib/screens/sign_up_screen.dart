@@ -55,7 +55,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // التعديل 2: استخدام MediaQuery لضبط مقاس الويب
     double screenWidth = MediaQuery.of(context).size.width;
 
     return Scaffold(
